@@ -1,9 +1,6 @@
 using System;
 using System.Drawing;
-
-namespace NearestNeighbor
-{
-    class NearestNeighbor
+class NearestNeighbor
     {
         //convert the bitmap image into an object matrix
         public static Object[][] createMatrix(Bitmap image)
@@ -51,4 +48,3 @@ namespace NearestNeighbor
             return image;
         }
     }
-}
